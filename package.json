@@ -1,0 +1,27 @@
+{
+  "name": "place",
+  "version": "1.0.0",
+  "description": "Draw with others",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saigrandhi/place-copy.git"
+  },
+  "author": "Sai Grandhi, Jonathan Rodiger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saigrandhi/place-copy/issues"
+  },
+  "homepage": "https://github.com/saigrandhi/place-copy#readme",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

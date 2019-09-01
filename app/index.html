@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Canvas tutorial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style type="text/css">
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<!--   <div>
+    <h2>Choose a color</h2>
+    <input type='text' id="showPaletteOnly"/>
+  </div> -->
+<canvas class="place" width="700" height="700"></canvas>
+
+<div class="color-box">
+    <div class="options red"></div>
+    <div class="options blue"></div>
+    <div class="options darkturquoise"></div>
+    <div class="options green"></div>
+    <div class="options lawngreen"></div>
+    <div class="options black"></div>
+    <div class="options yellow"></div>
+    <div class="options orange"></div>
+    <div class="options purple"></div>
+    <div class="options magenta"></div>
+    <div class="options pink"></div>
+</div>
+
+<!-- Tried to add different shape selection but client-side JS for radio buttons wasn't working. -->
+<!--<input type="radio" id="square" name="Rectangle" value="rekt">Rectangle <br>-->
+<!--<input type="radio" id="line" name="Line" value="line">Line <br>-->
+<!--<button id="clearCanvas">Clear canvas</button>-->
+<!--<button id="saveImage">Save Image</button>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+<script src="/main.js"></script>
+
+
+
+</body>
+
+</html>
